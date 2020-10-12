@@ -1,0 +1,11 @@
+
+extend type Query{
+    authorById(id: ID): Author
+}
+
+
+type Author {
+    id: ID
+    firstName: String
+    lastName: String
+}
