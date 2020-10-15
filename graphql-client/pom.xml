@@ -34,7 +34,7 @@
             </goals>
             <configuration>
               <rootPackageName>com.graphql.demo.client</rootPackageName>
-              <generateIntrospectionFile>true</generateIntrospectionFile>
+              <generateIntrospectionFile>false</generateIntrospectionFile>
               <introspectionFile>${project.basedir}/src/main/graphql/schema.json</introspectionFile>
               <schemaUrl>http://127.0.0.1:8080/graphql</schemaUrl>
               <sourceDirName>${project.basedir}/src/main/graphql</sourceDirName>
