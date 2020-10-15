@@ -21,4 +21,8 @@ public class BookResolver implements GraphQLResolver<Book> {
                 .orElse(null);
 
     }
+
+    /*public String name(Book book) {
+        return "book-name";
+    }*/
 }
