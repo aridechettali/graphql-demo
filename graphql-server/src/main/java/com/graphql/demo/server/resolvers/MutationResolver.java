@@ -8,7 +8,7 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class MutationResolver implements GraphQLMutationResolver {
 
-  public Book newBook(String id, String name, String authorId, Integer pageCount) {
+  public Book createBook(String id, String name, String authorId, Integer pageCount) {
     Book book = new Book(id,name,authorId,pageCount);
     DataRecords.bookData.add(book);
     return book;

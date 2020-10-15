@@ -9,7 +9,7 @@ type Query {
 }
 
 type Mutation {
-    newBook(id: ID!,name: String!, authorId: String!, pageCount: Int!) : Book!
+    createBook(id: ID!,name: String!, authorId: String!, pageCount: Int!) : Book!
 }
 
 type Book {
@@ -18,5 +18,3 @@ type Book {
     pageCount: Int
     author: Author
 }
-
-
